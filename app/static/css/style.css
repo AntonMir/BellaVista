@@ -1,0 +1,155 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  position: relative;
+  background: radial-gradient(circle farthest-side at 50% 10%, #fff, #2EAFAA) no-repeat center;
+  background-size: cover;
+  border: dashed 5px red;
+  max-width: 1920px;
+  margin: auto;
+  overflow: hidden;
+  font-size: 120%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+  position: absolute;
+  top: 5%;
+  left: calc(50% - 350px);
+  width: 700px;
+  height: auto;
+}
+
+.main__section {
+  background-color: #449F9A;
+  box-shadow: #000 0 0 5px;
+  margin: 30% auto 10%;
+  width: 90%;
+  height: 80%;
+}
+
+/* ---------- Панель навигации ---------- */
+.header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+
+.main-section__logo {
+  width: 300px;
+  height: auto;
+}
+
+.navbar {
+  list-style-type: none;
+  display: flex;
+  white-space: nowrap;
+}
+
+.navbar__item {
+  margin: 5px 30px;
+  font-size: 120%;
+  font-weight: bold;
+  cursor: pointer;
+  border-bottom: 1px solid #fff;
+  text-decoration: none;
+  color: #2EAFAA;
+}
+
+.navbar__item:hover {
+  border-bottom: 1px solid #2EAFAA;
+}
+
+/* ---------- О клинике ---------- */
+.about__clinic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  margin: 0 20%;
+}
+
+.about__clinic ul {
+  list-style-type: none;
+}
+
+.about__clinic ul li {
+  margin: 10px 0;
+}
+
+/* ---------- Фотки ---------- */
+.photos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 20%;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.photos h1 {
+  margin: 0 0 40px 0;
+}
+
+.photos__wrapper img {
+  margin: 0 30px;
+  width: 200px;
+  height: auto;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+
+/* ---------- Форма отправки данных на сервер ---------- */
+.meeting {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(0, 0, 0);
+}
+
+.meeting-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1200px;
+  height: 500px;
+  border: dashed 2px red;
+  background-color: #fff;
+}
+
+
+/* ---------- Карта ---------- */
+.map {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  margin: 100px 0 0;
+}
+
+/* ---------- Контакты ---------- */
+.contacts {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 10% 70px;
+}
+
+footer {
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15% 10px 10%;
+}
+
+
