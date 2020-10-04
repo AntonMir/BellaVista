@@ -1,1 +1,1 @@
-Rest Apt + ajax
+Flask + Rest Apt + ajax
